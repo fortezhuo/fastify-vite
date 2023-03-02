@@ -4,7 +4,7 @@
     "dev": "ts-node --esm ./src/server/index.ts",
     "prod": "npm run build && npm run server:prod",
     "build": "vite build",
-    "start": "npm run build && cross-env NODE_ENV=production ts-node --esm ./src/server/index.ts"
+    "server:prod": "cross-env NODE_ENV=production ts-node --esm ./src/server/index.ts"
   },
   "dependencies": {
     "@fastify/compress": "^6.1.1",

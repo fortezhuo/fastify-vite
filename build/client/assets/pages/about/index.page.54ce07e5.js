@@ -1,0 +1,1 @@
+import{a as e,F as r,j as n}from"../../chunk-929c7129.js";function i(){return e(r,{children:[n("h1",{children:"About"}),e("p",{children:["Demo using ",n("code",{children:"vite-plugin-ssr"}),"."]})]})}export{i as Page};
